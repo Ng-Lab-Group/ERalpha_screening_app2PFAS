@@ -7,7 +7,7 @@ import pandas as pd
 
 resultsummary_folder = Path(f'{result_path}')
 
-reslong = pd.read_csv('D:/ComData_PFAS/pdb_collect/3ert_1ere/res_chi1_group.csv')
+reslong = pd.read_csv('res_chi1_group.csv')
 reslist = reslong['resname'].unique()
 interactionlist = ['Hpho','Hbond','vdw','pi']
 
